@@ -1,7 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .title {
     font-size: 65px;
     font-style: italic;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 0px;
+}
+
+
+/*barra de navegacion*/
+
+div.barra-nav {
+    text-align: center;
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.barra-nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.barra-nav a:hover {
+    background-color: rgb(189, 73, 73);
 }
