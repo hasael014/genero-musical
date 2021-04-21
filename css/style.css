@@ -50,21 +50,34 @@ div.barra-nav a:hover {
 }
 
 #img-prin {
-    width: 42%;
+    width: 55%;
     float: left;
     margin-right: 15px;
 }
 
 #text-que-es-la-musica {
     margin-top: 10px;
-    margin-left: 440px;
+    font-size: 20px;
 }
 
 #tit-geros-musicales {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 #text-generos-music {
-    margin-left: 20px;
     margin-top: 5px;
+    font-size: 23px;
+    color: rgba(5, 78, 48, 0.836);
+}
+
+#sub-tit {
+    font-size: 30px;
+    color: rgba(32, 112, 12, 0.829);
+}
+
+#musica-clasica {
+    margin-left: 25px;
+    margin-top: 9px;
+    font-size: 20px;
+    color: rgb(34, 40, 44);
 }
