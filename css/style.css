@@ -3,12 +3,8 @@
     padding: 0px;
 }
 
-.title {
-    font-size: 65px;
-    font-style: italic;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 0px;
+body {
+    background-color: rgba(0, 0, 0, 0.322);
 }
 
 
@@ -16,7 +12,7 @@
 
 div.barra-nav {
     text-align: center;
-    background-color: #333;
+    background-color: rgb(28, 49, 18);
     overflow: auto;
     white-space: nowrap;
 }
@@ -30,5 +26,36 @@ div.barra-nav a {
 }
 
 div.barra-nav a:hover {
-    background-color: rgb(189, 73, 73);
+    background-color: rgb(52, 131, 49);
+}
+
+
+/*titulo de la pagina*/
+
+.title {
+    font-size: 65px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+/*Cuerpo de l pagina*/
+
+.cuerp-pagina {
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+#img-prin {
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+#text-que-es-la-musica {
+    margin-top: 10px;
+    margin-left: 515px;
 }
